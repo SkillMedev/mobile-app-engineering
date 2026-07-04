@@ -14,13 +14,13 @@ The mobile stack the catalog was missing. Reach for it when you own an iOS, Andr
 
 ## Skills in this pack
 
-- **[SwiftUI Expert](skills/swift-ui/SKILL.md)** — Builds SwiftUI views with proper state management, animations, and accessibility.
-- **[React Native Pro](skills/react-native-pro/SKILL.md)** — Builds production React Native apps — navigation, performance, native modules, EAS builds.
-- **[Jetpack Compose Builder](skills/jetpack-compose-builder/SKILL.md)** — Builds Android Jetpack Compose UI with hoisted state, unidirectional data flow, and recomposition-safe patterns.
+- **[SwiftUI Expert](skills/swift-ui/SKILL.md)** — Builds clean, performant, accessible SwiftUI views with correct state ownership, scoped invalidation, and smooth list scrolling, and reviews existing SwiftUI code against a concrete frame-time and re-render budget.
+- **[React Native Pro](skills/react-native-pro/SKILL.md)** — Builds and ships production React Native apps — architecture, navigation, list and startup performance against explicit budgets, native modules, and EAS release flow.
+- **[Jetpack Compose Builder](skills/jetpack-compose-builder/SKILL.md)** — Builds Android Jetpack Compose UI with hoisted state, unidirectional data flow, and recomposition-safe patterns backed by measured stability rules.
 - **[Flutter Widget Architect](skills/flutter-widget-architect/SKILL.md)** — Architects Flutter widget trees and Riverpod or Bloc state so rebuilds are scoped, build() stays pure, and const widgets skip recomposition.
-- **[Mobile Offline Sync](skills/mobile-offline-sync/SKILL.md)** — Build local-first mobile storage with an optimistic local store, durable mutation outbox, deliberate conflict resolution, incremental pull, and idempotent background retry.
-- **[Push Notification Wirer](skills/push-notification-wirer/SKILL.md)** — Wires native mobile push end to end on APNs and FCM — device-token registration, alert and silent payloads, permission priming, server send path, and tap routing into the app.
-- **[Mobile Perf Profiler](skills/mobile-perf-profiler/SKILL.md)** — Diagnoses and fixes mobile jank, dropped frames, and growing memory by capturing a trace or heap snapshot, isolating the worst frame or leak, fixing it, and re-measuring against the frame budget.
+- **[Mobile Offline Sync](skills/mobile-offline-sync/SKILL.md)** — Builds local-first mobile storage with an optimistic local store, durable mutation outbox, per-entity conflict-resolution rules, incremental pull, and idempotent background retry.
+- **[Push Notification Wirer](skills/push-notification-wirer/SKILL.md)** — Wires native mobile push end to end on APNs and FCM — device-token lifecycle, permission priming and prompt timing, alert and silent payloads, the server send path, and tap routing in all app states.
+- **[Mobile Perf Profiler](skills/mobile-perf-profiler/SKILL.md)** — Diagnoses and fixes mobile jank, dropped frames, slow startup, and growing memory by capturing a trace or heap snapshot on a real device, isolating the single worst cost, fixing it, and re-measuring against the 16ms frame and cold-start budgets.
 - **[App Store Release Prep](skills/app-store-release-prep/SKILL.md)** — Produce a reproducible signing, versioning, and store-declaration pipeline so an iOS or Android build passes App Store Connect / Play Console submission.
 
 ## License
