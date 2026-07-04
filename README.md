@@ -9,7 +9,7 @@ The mobile stack the catalog was missing. Reach for it when you own an iOS, Andr
 ## Install
 
 - **From the catalog:** [skillme.dev/pack/mobile-app-engineering](https://skillme.dev/pack/mobile-app-engineering) — install the whole pack into Claude in one step.
-- **With the skills CLI:** `npx skills add aouellets/mobile-app-engineering`
+- **With the skills CLI:** `npx skills add SkillMedev/mobile-app-engineering`
 - **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
 
 ## Skills in this pack
