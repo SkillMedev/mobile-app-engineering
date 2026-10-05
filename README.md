@@ -1,16 +1,17 @@
 # Mobile App Engineering
 
-**For mobile engineers: build native + cross-platform apps and ship them past store review.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
+**For mobile engineers: build native + cross-platform apps and ship them past store review.** — built in-house by [Skill&nbsp;Me](https://skillme.dev/?utm_source=github&utm_medium=readme&utm_campaign=pack-mobile-app-engineering).
 
 The mobile stack the catalog was missing. Reach for it when you own an iOS, Android, Flutter, or React Native app end to end: build UIs with correct state flow and no recomposition jank, add local-first offline sync with real conflict resolution, wire APNs/FCM push from token to tap, profile dropped frames and memory leaks against a frame budget, and get through App Store Connect and Play Console submission without the usual signing and privacy-form rejections.
 
-⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
-
 ## Install
 
-- **From the catalog:** [skillme.dev/pack/mobile-app-engineering](https://skillme.dev/pack/mobile-app-engineering) — install the whole pack into Claude in one step.
+- **Claude, ChatGPT, Codex, Cursor (connector):** [install the whole pack from skillme.dev](https://skillme.dev/pack/mobile-app-engineering?utm_source=github&utm_medium=readme&utm_campaign=pack-mobile-app-engineering) — one connection, then ask for any skill by name.
+- **As files for Codex, Cursor, or Claude Code:** `npx @skillme/cli add swift-ui react-native-pro jetpack-compose-builder flutter-widget-architect mobile-offline-sync push-notification-wirer mobile-perf-profiler app-store-release-prep --target all`
 - **With the skills CLI:** `npx skills add SkillMedev/mobile-app-engineering`
-- **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
+- **Manually:** copy any `skills/<slug>/SKILL.md` into `.agents/skills/`, `.cursor/skills/`, or `.claude/skills/`.
+
+⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
 
 ## Skills in this pack
 
@@ -26,4 +27,4 @@ The mobile stack the catalog was missing. Reach for it when you own an iOS, Andr
 ## License
 
 MIT — see [LICENSE](LICENSE). Skills are portable `SKILL.md` files; the canonical
-copies live in the [Skill&nbsp;Me catalog](https://skillme.dev).
+copies live in the [Skill&nbsp;Me catalog](https://skillme.dev/browse?utm_source=github&utm_medium=readme&utm_campaign=pack-mobile-app-engineering).
